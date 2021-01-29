@@ -1,0 +1,201 @@
+body{
+  background-image: url("AbstractWallpaper.jpg");
+  color:white;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  font-family: Georgia, sans-serif;
+  background-blend-mode:darken;
+}
+
+body p {
+  text-align:justify;
+}
+
+header{
+  background-image: url(Banner.jfif);
+  background-color: black;
+  text-align: center;
+  height: 150px;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+h1{
+  margin:0;
+  text-align: center;
+  padding-top:0px;
+  padding-left:0px;
+  font-size: 120px;
+  font-family:'Copperplate Gothic', serif;
+  color: white;
+
+}
+
+h2 {
+  padding-top:10px;
+  font-size:28px;
+  text-align:center;
+  font-family:Georgia, sans-serif;
+}
+
+h3{
+  margin:0;
+  text-align: center;
+  padding-top:0px;
+  padding-left:0px;
+  font-size: 50px;
+  font-family:'Copperplate Gothic', serif;
+  color: white;
+}
+
+p{
+  padding-top:25px;
+  padding-left:250px;
+  padding-right:250px;
+  font-size:16px;
+  font-family:Georgia, sans-serif;
+  padding-bottom:0.5em;
+}
+
+h4{
+  font-size: 28px;
+  font-family:Georgia, sans-serif;
+}
+
+h4 a:link{
+  color: azure;
+}
+
+h4 a:visited{
+  color: orchid;
+}
+
+p a:link{
+  color: azure;
+}
+
+p a:visited{
+  color: orchid;
+}
+
+ul{
+  padding-top: 25px;
+  padding-left: 250px;
+  padding-right: 250px;
+  font-size:16px;
+  font-family: Georgia, sans-serif;
+}
+
+li span{
+  display:block;
+  left:-5em;
+}
+
+footer{
+  padding-top: 1em;
+  padding-bottom:1em;
+  font-size: 20px;
+  text-align: center;
+}
+
+img {
+    max-width:50%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+
+button {
+  background-color: aliceblue; 
+  border: 2px solid black;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: mediumblue;
+  color: white;
+}
+
+button {
+    text-align: right;
+    display: inline-block;
+}
+
+/* Table */
+table{
+  margin-right: auto;
+  margin-left: auto;
+  width:90%;
+  border-spacing: 0;
+  background-color:deepskyblue;
+}
+td, th {padding:10px;}
+
+tr:nth-of-type(odd){
+  background-color: dodgerblue;
+}
+
+table a{
+  font-size: 30px;
+}
+/* Sidebar */
+.sidenav {
+  background-repeat: no-repeat;
+  font-family: Helvetica, sans-serif;
+  display: none;
+  height: 90%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: midnightblue;
+  color:white;
+  overflow-x: hidden;
+  padding-top: 30px;
+}
+
+span{
+  color:white;
+  position:absolute;
+  left:30px;
+  top:30px;
+}
+
+.sidenav a{
+  padding: 30px 10px 8px 32px;
+  text-decoration:none;
+  font-size:25px;
+  color:turquoise;
+  display:block;
+}
+.sidenav a:hover {
+  color:dodgerblue;
+}
+
+.sidenav .closebtn{
+  position:absolute;
+  color: turquoise;
+  top:0;
+  right:25px;
+  font-size: 40px;
+  margin-left:50px;
+}
+
+.sidenav img{
+  width:200%;
+  height:16%;
+}
+   
+/* End Sidebar */   

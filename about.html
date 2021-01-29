@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="about.css">
+	<title> About Danessa </title>
+	<link rel="shortcut icon" type ="Biomedical Engineering Favicon" href="favicon.png">
+</head>
+<body>
+<header>
+	<h1> About Me </h1>
+</header>
+<!--Three Bars-->
+	<div id="threebars" class="sidenav">
+      <img alt="logo" src="SidebarIcon.png">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times</a>
+		  <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="http://aer.uci.design/">AER Website (Capstone Project)</a>
+      <a href="projects.html">Team Projects</a>
+      <a href="solidworks.html">SolidWorks Models</a>
+      <a href="programming.html">Programming</a>
+      <a href="presentations.html">Presentations</a>
+      <a href="documents.html">Documents</a>
+      <a href="contact.html">Contact Me</a>
+	</div>
+	<!--Three Bars Icon -->
+
+	<span style="font-size:30px;cursor:pointer" onclick="openNav()"> &#9776; </span>
+
+	<script>
+		function openNav() {
+			document.getElementById("threebars").style.display = "block";
+		}
+		function closeNav() {
+			document.getElementById("threebars").style.display = "none";
+		}
+	</script>
+	<!-- Three Bars End -->
+<script>
+function hideShow1() {
+  	var x = document.getElementById("InternPosterSession");
+  		if (x.style.display === "none") {
+    		x.style.display = "block";
+  		} else {
+    		x.style.display = "none";
+  		}
+}
+
+function hideShow2() {
+  	var y = document.getElementById("PrototypeDesigner");
+  		if (y.style.display === "none") {
+    		y.style.display = "block";
+  		} else {
+    		y.style.display = "none";
+  		}
+}
+
+function hideShow3() {
+  	var z = document.getElementById("StructuralBiology");
+  		if (z.style.display === "none") {
+    		z.style.display = "block";
+  		} else {
+    		z.style.display = "none";
+  		}
+}
+
+function hideShow4() {
+  	var t = document.getElementById("HirschbergLab");
+  		if (t.style.display === "none") {
+    		t.style.display = "block";
+  		} else {
+    		t.style.display = "none";
+  		}
+}
+
+function hideShow5() {
+  	var u = document.getElementById("IndustryNight");
+  		if (u.style.display === "none") {
+    		u.style.display = "block";
+  		} else {
+    		u.style.display = "none";
+  		}
+}
+
+</script>
+
+<h2> About Danessa Leslie Yip </h2>
+
+<img src="DanessaGraduation.jpg" alt="Danessa UCI Graduation Photo">
+
+<p> Danessa graduated <i> <strong> cum laude </strong> </i> from UCI with a Bachelor's of Science in Biomedical Engineering in June 2020.  She has worked previously as a Group Processing Engineering Intern for Applied Medical, as well as an undergraduate research assistant for both the Ray Luo Computational Biology Lab and the Henry Hirschberg Multiplidiscinary Project. She is well-versed in Python, C/C++, MATLAB, LabVIEW, Java, Javascript, and PHP.<p>
+
+<h2> Group Processing Engineering Intern </h2>
+
+<button onclick="hideShow1()"> Photo (click to hide)</button>
+
+<div id="InternPosterSession">
+<img src="InternPosterSession.jpg" alt="Applied Medical Intern Poster Session"> </div>
+
+<p> As a Group Processing Intern, Danessa worked on several fixtures and test validation methods for several devices.  She has modified and tested the trocar fit test, designing a fixture for it.  She has also designed a pin-holding fixture to ensure that the company's graspers can withstand compressive and tensile loads.  She has worked on CAD models and drawings for products such as the Epix Probe and annotated it for other engineers to use. </p>
+
+<h2> AER Prototype Developer </h2>
+
+<button onclick="hideShow2()"> Photo (click to hide)</button>
+
+<div id="PrototypeDesigner">
+<img src="PrototypeDesigner.png" alt="AER Team Photo"></div>
+
+<p> As Team AER's prototype developer, Danessa analyzed the risk and failure modes of the device.  She made sure that the project adhered to FDA guidelines and general course outlines for the project.  She also compiled several reports and edited them to ensure that these reports and presentations were designed with high quality.</p> 
+
+<h2> Ray Luo Lab </h2>
+
+<button onclick="hideShow3()"> Photo (click to hide)</button>
+
+<div id="StructuralBiology">
+<img src="StructuralBiology.png" alt="Computational Simulation Lab"> </div>
+
+<p> As a member of the Computational Biology Lab, Danessa worked on building algorithms to find protein interactions between two proteins.  She especially worked on the Mob1-Lats protein complex, with a large data set, performing analyses on the conformational changes in the structure. </p>
+
+<h2> Henry Hirschberg Lab </h2>
+
+<button onclick="hideShow4()"> Photo (click to hide)</button>
+
+<div id="HirschbergLab">
+<img src="HirschbergLab.png" alt="Henry Hirschberg's MDP Project Listing"></div>
+
+<p> As a member of the Henry Hirschberg Lab at Beckman Laser Institute, Danessa has worked on testing drug delivery vectors using macrophages.  She subcultured F98 rat tumor cells and performed laser treatments on each plate using gold nanoparticles inserted into each tumor spheroid.  She also worked on the SURP summer project "Sonochemical Internalization Project", creating a mechanical setup for monitoring tumor spheroids under sonochemical ultrasound treatment and plasmid-directed gene therapy.</p>
+
+<h2> More Titles / Positions </h2>
+
+<button onclick="hideShow5()"> Photo (click to hide)</button>
+
+<div id="IndustryNight">
+<img src="IndustryNight.png" alt="Industry Night"></div>
+
+<ul>
+<li> <span> Treasurer and Industrial Relations of Alpha Eta Mu Beta (AEMB) </span> </li>
+<li> <span> Honors Society Member of Tau Beta Pi (TBP) </span> </li>
+<li> <span> Member of Biomedical Engineering Society </span> </li>
+<li> <span> Vice President of Scholarship of Phi Theta Kappa (PTK) </span> </li>
+<li> <span> Secretary for Circle K Organization </span> </li>
+<li> <span> 3rd Place Winner of Poster Contest for UCI's Honors Transfer Conference (HTCC) </span> </li>
+</ul>

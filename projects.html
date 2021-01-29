@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="projects.css">
+	<title> Danessa's Projects </title>
+	<link rel="shortcut icon" type ="Biomedical Engineering Favicon" href="favicon.png">
+</head>
+<header>
+	<h1> Team Projects </h1>
+</header>
+<!--Three Bars-->
+	<div id="threebars" class="sidenav">
+      <img alt="logo" src="SidebarIcon.png">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times</a>
+		  <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="http://aer.uci.design/">AER Website (Capstone Project)</a>
+      <a href="projects.html">Team Projects</a>
+      <a href="solidworks.html">SolidWorks Models</a>
+      <a href="programming.html">Programming</a>
+      <a href="presentations.html">Presentations</a>
+      <a href="documents.html">Documents</a>
+      <a href="contact.html">Contact Me</a>
+	</div>
+	<!--Three Bars Icon -->
+
+	<span style="font-size:30px;cursor:pointer" onclick="openNav()"> &#9776; </span>
+
+	<script>
+		function openNav() {
+			document.getElementById("threebars").style.display = "block";
+		}
+		function closeNav() {
+			document.getElementById("threebars").style.display = "none";
+		}
+	</script>
+	<!-- Three Bars End -->
+<body>
+<div class="pulse">
+<a id="PulseOximeter"> <h4> Pulse Oximeter </h4> </a>
+  <p>
+    For this project, I designed the software and hardware of a pulse oximeter. </br>
+    I first created a program on LabVIEW that would alternatively switch the LEDs on and off, </br>
+    and I then helped create a SOLIDWORKS model to create a fingerclip, cord, and case, </br>
+    which I 3D-printed using an .STL model.
+  </p>
+  <!-- Embed Presentation -->
+  <p> This is the presentation that contains the early SOLIDWORKS models of the fingerclip and box covering. </p>
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRzzJB1jnvsZ73oI99NbuCbGdEOc8gdt0a8MIkJBEenfbrOpYRBPNy0VXAwQFZIJNn7_Wn7DnfQ06tx/embed?start=true&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  <!-- Picture -->
+  <p> This is a closer view of the schematic that I drew for the electrical wiring of the system. </p>
+  <embed src="Wiring Schematics.pdf" width="800px" height="700px" />
+  <!-- Embed Report -->
+  <p> This is the report that I wrote describing the final design and use of the clip, and the manufacturing process. </p>
+  <embed src="Final Report.pdf" width="800px" height="1000px" />
+</div>
+
+<div class="bci">
+<a id="BCIMachine"> <h4> BCI Machine </h4> </a>
+
+<!--BCI Project-->
+  <h4> Brain-Computer Interface (BCI) Project: Wheelchair Buddy </h4>
+  <p>
+    For this project, I wrote the script while team member Armando drew and animated the video. <br />
+    I also helped design <a href="https://youtu.be/GTt_mdWSPJg?t=60"> the BCI interface </a>, the EEG electrode placement <a href="https://youtu.be/GTt_mdWSPJg?t=112"> at 1:52 </a>, and <a href="https://youtu.be/GTt_mdWSPJg?t=148">the flowchart at 2:29 </a>
+  </p>
+  <!-- Embed Video -->
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/GTt_mdWSPJg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<!--AER Breathing Stick -->
+
+<div class="aer">
+<h4> AER Breathing Filtration Stick <h4>
+
+<a href="http://aer.uci.design/"> <h3> Please see this link (also at the top)! </h3> </a>
+</div>
