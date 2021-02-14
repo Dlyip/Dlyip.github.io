@@ -29,7 +29,7 @@
 	</div>
 	<!--Three Bars Icon -->
 
-	<span style="font-size:30px;cursor:pointer" onclick="openNav()"> &#9776; </span>
+	<span id = "button" style="font-size:30px;cursor:pointer" onclick="openNav()"> &#9776; </span>
 	<style>
     	h2 {
     		margin-bottom: 0px;
@@ -44,26 +44,22 @@
 			#Error{padding-top:300px; padding-left: 200px;}
 		</style>
 		<span id = "Error"> <img src="ErrorGreen.jpg" alt="Error Screen"></span>
-		<span id = "OrigamiHearts"><a href = "https://www.instagram.com/danessayip/"> <img src="HeartOrigami.jpg" alt="Origami Hearts"> </a> </span>
-		<span id = "Facebook"><a href = "https://www.facebook.com/danessa.yip/"> <img src="FacebookDanessa.jpg" alt="Danessa's Facebook"> </a> </span>
+		<span id = "OrigamiHearts"><a href = "https://www.instagram.com/danessayip/"> <img src="HeartOrigami.JPG" alt="Origami Hearts"> </a> </span>
+		<span id = "Facebook"><a href = "https://www.facebook.com/danessa.yip/"> <img src="FacebookDanessa.JPG" alt="Danessa's Facebook"> </a> </span>
 	</body>
 	<script>
-		function openNav() {
-			document.getElementById("threebars").style.display = "block";
-		}
-		function closeNav() {
-			document.getElementById("threebars").style.display = "none";
-		}
 	  secret = prompt ("Name the instructor for CS 80 (Enter First and Last Name (w/ space in between): ");
 	  if (secret != "Mark Edmonds"){
-	  	document.getElementById("check").innerHTML = "You entered the incorrect information! <br> Now try clicking back and try again!";
+	  	document.getElementById("check").innerHTML = "You entered the incorrect information! <br> Now try refreshing or going back to the previous page and try again!";
+	  	document.getElementById("button").style.visibility = "hidden";
 	  	document.getElementById("Error").style.visibility = "visible";
 	 	document.getElementById("OrigamiHearts").style.visibility = "hidden";
 	  	document.getElementById("Facebook").style.visibility = "hidden"; 
 	  }
 
 	  else if (secret == "Mark Edmonds"){
-	  	document.getElementById("check").innerHTML = "Congratulations!  You entered the correct information.  Now enjoy your treat!<br> Links to Instagram and Facebook (public)";
+	  	document.getElementById("check").innerHTML = "Congratulations!  You entered the correct information.  Now enjoy your treat!<br> Links to Instagram and Facebook (public) <br> Hit back to return to the other pages.";
+	  	document.getElementById("button").style.visibility = "hidden";
 	  	document.getElementById("Error").style.visibility = "hidden";
 	  	document.getElementById("OrigamiHearts").style.visibility = "visible";
 	  	document.getElementById("Facebook").style.visibility = "visible";
