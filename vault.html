@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="projects.css">
+	<title> Secret Vault </title>
+	<link rel="shortcut icon" type ="Biomedical Engineering Favicon" href="favicon.png">
+</head>
+<header>
+	<h1> Secret Vault </h1>
+		<style>
+		h1 {padding-top:30px;
+			font-size: 80px}
+	</style>
+</header>
+<!--Three Bars-->
+	<div id="threebars" class="sidenav">
+      <img alt="logo" src="SidebarIcon.png">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times</a>
+		  <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="http://aer.uci.design/">AER Website (Capstone Project)</a>
+      <a href="projects.html">Team Projects</a>
+      <a href="solidworks.html">SolidWorks Models</a>
+      <a href="programming.html">Programming</a>
+      <a href="presentations.html">Presentations</a>
+      <a href="documents.html">Documents</a>
+      <a href="contact.html">Contact Me</a>
+      <a href="resume.html">Résumé</a>
+	</div>
+	<!--Three Bars Icon -->
+
+	<span style="font-size:30px;cursor:pointer" onclick="openNav()"> &#9776; </span>
+	<style>
+    	h2 {
+    		margin-bottom: 0px;
+    		padding-bottom: 0px;
+    	}
+    </style>
+	<body>
+		<h2 id="check"></h2>
+		<style>
+			#OrigamiHearts{ padding-top:300px; max-width:720px;}
+			#Facebook{ padding-top:300px; padding-left: 400px; max-width:720px;}
+			#Error{padding-top:300px; padding-left: 200px;}
+		</style>
+		<span id = "Error"> <img src="ErrorGreen.jpg" alt="Error Screen"></span>
+		<span id = "OrigamiHearts"><a href = "https://www.instagram.com/danessayip/"> <img src="HeartOrigami.jpg" alt="Origami Hearts"> </a> </span>
+		<span id = "Facebook"><a href = "https://www.facebook.com/danessa.yip/"> <img src="FacebookDanessa.jpg" alt="Danessa's Facebook"> </a> </span>
+	</body>
+	<script>
+		function openNav() {
+			document.getElementById("threebars").style.display = "block";
+		}
+		function closeNav() {
+			document.getElementById("threebars").style.display = "none";
+		}
+	  secret = prompt ("Name the instructor for CS 80 (Enter First and Last Name (w/ space in between): ");
+	  if (secret != "Mark Edmonds"){
+	  	document.getElementById("check").innerHTML = "You entered the incorrect information! <br> Now try clicking back and try again!";
+	  	document.getElementById("Error").style.visibility = "visible";
+	 	document.getElementById("OrigamiHearts").style.visibility = "hidden";
+	  	document.getElementById("Facebook").style.visibility = "hidden"; 
+	  }
+
+	  else if (secret == "Mark Edmonds"){
+	  	document.getElementById("check").innerHTML = "Congratulations!  You entered the correct information.  Now enjoy your treat!<br> Links to Instagram and Facebook (public)";
+	  	document.getElementById("Error").style.visibility = "hidden";
+	  	document.getElementById("OrigamiHearts").style.visibility = "visible";
+	  	document.getElementById("Facebook").style.visibility = "visible";
+	  }
+
+	</script>
